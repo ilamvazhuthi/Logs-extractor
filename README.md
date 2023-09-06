@@ -17,7 +17,6 @@ The Data Dog Error Filtering Tool allows users to upload logs in CSV format and 
 pip install Flask pandas
 
 ```
-(Note: The actual dependencies would need to be listed in a `requirements.txt` file, which is not currently provided.)
 
 ## Usage
 1. Run the Flask application:
