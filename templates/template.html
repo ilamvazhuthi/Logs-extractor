@@ -1,0 +1,23 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>DataDog Log Filter</title>
+</head>
+<body>
+    <h2>DataDog Log Filter</h2>
+    <form action="/process" method="post" enctype="multipart/form-data">
+        <label for="csvfile">Upload your DataDog CSV file:</label>
+        <input type="file" name="csvfile" required><br><br>
+        
+        <label for="log_level_column">Column name with log levels:</label>
+        <input type="text" name="log_level_column" placeholder="e.g., log_level" required><br><br>
+        
+        <input type="submit" value="Filter Error Logs">
+    </form>
+    
+    <!-- Display results -->
+    <h3>Filtered Error Logs:</h3>
+    <div id="results"></div>
+</body>
+</html>
