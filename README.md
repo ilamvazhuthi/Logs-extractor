@@ -14,24 +14,19 @@ The Data Dog Error Filtering Tool allows users to upload logs in CSV format and 
 3. Navigate to the project directory.
 4. Install any required packages using pip:
 ```
-pip install -r requirements.txt
+pip install Flask pandas
+
 ```
 (Note: The actual dependencies would need to be listed in a `requirements.txt` file, which is not currently provided.)
 
 ## Usage
 1. Run the Flask application:
 ```
-python flask_app.py
+python keywords_flask_app.py
 ```
-2. Navigate to the provided localhost URL in your web browser.
+2. Navigate to the provided localhost URL  http://127.0.0.1:5000/ in your web browser.
 3. Use the web interface to upload your CSV log files.
 4. Click on the "Filter" button to process the logs and view the filtered results containing exceptions, failures, and errors.
 
 
-
-*pip install Flask pandas*
-
-*python keywords_flask_app.py*
-
-*Then go to http://127.0.0.1:5000/*
 
